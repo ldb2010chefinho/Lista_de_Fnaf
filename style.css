@@ -1,0 +1,63 @@
+body{
+    text-align: center;    
+    background-image: url("fundoFNAF.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: fantasy;  
+    font-size: 50px;  
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 2.5px;
+    -webkit-text-stroke-color: rgb(255, 0, 0);
+}
+
+img{
+    width: 90%;
+}
+
+#img1{    
+    display: none;
+}
+
+
+#MostrarSemVirgula{
+    font-size: 35px;
+    font-family: fantasy;  
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 85%;
+    left: 30%;
+    text-align: center;
+}
+
+#BtnEnviar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    background-color: red;
+    font-size: large;
+    border-color: white;
+}
+
+/* Estilizar os números da lista, a margem das caixas de texto e o botão Organizar*/
+span{
+    color: white;
+    font-weight: bold;
+}
+input{
+    margin: 10px;
+}
+
+#BtnOrganizar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+    background-color: black;
+    font-size: large;
+    border-color: white;
+    display: none;
+}
